@@ -25,7 +25,7 @@ const ibcChains = ['ibc', 'terra', 'terra2', 'crescent', 'osmosis', 'kujira', 's
 ]
 const caseSensitiveChains = [...ibcChains, ...svmChains, 'tezos', 'ton', 'algorand', 'aptos', 'near', 'bitcoin', 'waves', 'tron', 'litecoin', 'polkadot', 'ripple', 'elrond', 'cardano', 'stacks', 'sui', 'ergo', 'mvc', 'renec', 'doge', 'stellar', 'massa', 'aleo',
   'eclipse', 'acala', 'aelf', 'aeternity', 'alephium', 'bifrost', 'bittensor', 'verus', 'dash', 'qubic', 'constellation', 'supra',
-  'kaspa', 'bsv', 'arweave', 'pi', 'zcash',
+  'kaspa', 'bsv', 'arweave', 'pi', 'zcash', 'gnoland',
 ]
 
 const transformTokens = {
@@ -54,7 +54,7 @@ const fixBalancesTokens = {
   },
   gnoland: {
     'ugnot': { coingeckoId: 'gno-land', decimals: 6 },
-    'gno.land/r/gnoland/wugnot': { coingeckoId: 'gno-land', decimals: 6 },
+    'gno.land/r/gnoland/wugnot.wugnot': { coingeckoId: 'gno-land', decimals: 6 },
   },
 }
 
