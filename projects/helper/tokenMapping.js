@@ -52,6 +52,10 @@ const fixBalancesTokens = {
   zigchain: {
     azig: { coingeckoId: 'zignaly', decimals: 18 },
   },
+  gnoland: {
+    'ugnot': { coingeckoId: 'gno-land', decimals: 6 },
+    'gno.land/r/gnoland/wugnot': { coingeckoId: 'gno-land', decimals: 6 },
+  },
 }
 
 ibcChains.forEach(chain => fixBalancesTokens[chain] = { ...ibcMappings, ...(fixBalancesTokens[chain] || {}) })
